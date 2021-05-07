@@ -18,8 +18,10 @@ window.onload = () => {
     }
     resetbtn.onclick=()=>{
         clearInterval(Interval);
-        appSec.innerHTML="00";
-        appMin.innerHTML ="00";        
+        sec="00";
+        min ="00"; 
+        appSec.innerHTML = sec;
+        appMin.innerHTML = min;       
     }
     var startTimer = () => {
         sec++;
